@@ -1,0 +1,364 @@
+{
+  "datos": {
+    "entreno": 2860,
+    "prueba": 716
+  },
+  "p1_sin_entrenar": {
+    "epocas": 0,
+    "perdida": null,
+    "exactitud_entreno_%": 25.3,
+    "exactitud_prueba_%": 27.7,
+    "red_pura": {
+      "comidas_%": 2.3,
+      "pasos_medios": 1.43,
+      "pasos_extra_vs_optimo": 0.0,
+      "choques_por_ep": 37.89
+    },
+    "asistido": {
+      "comidas_%": 85.7,
+      "pasos_medios": 18.63,
+      "pasos_extra_vs_optimo": 12.54,
+      "choques_por_ep": 0.0
+    }
+  },
+  "p2_epocas": [
+    {
+      "epocas": 100,
+      "perdida": 0.1352,
+      "exactitud_entreno_%": 94.1,
+      "exactitud_prueba_%": 84.9,
+      "red_pura": {
+        "comidas_%": 48.7,
+        "pasos_medios": 5.6,
+        "pasos_extra_vs_optimo": 0.07,
+        "choques_por_ep": 0.87
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 8.29,
+        "pasos_extra_vs_optimo": 1.97,
+        "choques_por_ep": 0.0
+      }
+    },
+    {
+      "epocas": 200,
+      "perdida": 0.0376,
+      "exactitud_entreno_%": 99.9,
+      "exactitud_prueba_%": 90.1,
+      "red_pura": {
+        "comidas_%": 82.7,
+        "pasos_medios": 6.2,
+        "pasos_extra_vs_optimo": 0.02,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.83,
+        "pasos_extra_vs_optimo": 0.51,
+        "choques_por_ep": 0.0
+      }
+    },
+    {
+      "epocas": 400,
+      "perdida": 0.0107,
+      "exactitud_entreno_%": 100.0,
+      "exactitud_prueba_%": 91.5,
+      "red_pura": {
+        "comidas_%": 85.7,
+        "pasos_medios": 6.26,
+        "pasos_extra_vs_optimo": 0.03,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.67,
+        "pasos_extra_vs_optimo": 0.35,
+        "choques_por_ep": 0.0
+      }
+    }
+  ],
+  "p4_ocultas": [
+    {
+      "epocas": 200,
+      "perdida": 0.0992,
+      "exactitud_entreno_%": 96.9,
+      "exactitud_prueba_%": 88.7,
+      "red_pura": {
+        "comidas_%": 70.7,
+        "pasos_medios": 6.11,
+        "pasos_extra_vs_optimo": 0.02,
+        "choques_por_ep": 0.58
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 7.53,
+        "pasos_extra_vs_optimo": 1.21,
+        "choques_por_ep": 0.0
+      },
+      "ocultas": 16
+    },
+    {
+      "epocas": 200,
+      "perdida": 0.063,
+      "exactitud_entreno_%": 99.2,
+      "exactitud_prueba_%": 87.4,
+      "red_pura": {
+        "comidas_%": 77.7,
+        "pasos_medios": 6.12,
+        "pasos_extra_vs_optimo": 0.03,
+        "choques_por_ep": 0.15
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 7.15,
+        "pasos_extra_vs_optimo": 0.83,
+        "choques_por_ep": 0.0
+      },
+      "ocultas": 32
+    },
+    {
+      "epocas": 200,
+      "perdida": 0.0376,
+      "exactitud_entreno_%": 99.9,
+      "exactitud_prueba_%": 90.1,
+      "red_pura": {
+        "comidas_%": 82.7,
+        "pasos_medios": 6.2,
+        "pasos_extra_vs_optimo": 0.02,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.83,
+        "pasos_extra_vs_optimo": 0.51,
+        "choques_por_ep": 0.0
+      },
+      "ocultas": 96
+    },
+    {
+      "epocas": 200,
+      "perdida": 0.0366,
+      "exactitud_entreno_%": 99.9,
+      "exactitud_prueba_%": 89.2,
+      "red_pura": {
+        "comidas_%": 86.0,
+        "pasos_medios": 6.26,
+        "pasos_extra_vs_optimo": 0.02,
+        "choques_por_ep": 0.44
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.89,
+        "pasos_extra_vs_optimo": 0.57,
+        "choques_por_ep": 0.0
+      },
+      "ocultas": 128
+    }
+  ],
+  "p5_tasa": [
+    {
+      "epocas": 200,
+      "perdida": 1.0367,
+      "exactitud_entreno_%": 69.7,
+      "exactitud_prueba_%": 66.5,
+      "red_pura": {
+        "comidas_%": 15.7,
+        "pasos_medios": 3.57,
+        "pasos_extra_vs_optimo": 0.0,
+        "choques_por_ep": 17.83
+      },
+      "asistido": {
+        "comidas_%": 98.0,
+        "pasos_medios": 13.54,
+        "pasos_extra_vs_optimo": 7.21,
+        "choques_por_ep": 0.0
+      },
+      "tasa": 0.01,
+      "perdida_ep10": 1.3793,
+      "oscilacion_ult20": 3e-05,
+      "finita": true
+    },
+    {
+      "epocas": 200,
+      "perdida": 0.2841,
+      "exactitud_entreno_%": 90.8,
+      "exactitud_prueba_%": 82.7,
+      "red_pura": {
+        "comidas_%": 48.7,
+        "pasos_medios": 5.34,
+        "pasos_extra_vs_optimo": 0.05,
+        "choques_por_ep": 2.98
+      },
+      "asistido": {
+        "comidas_%": 99.7,
+        "pasos_medios": 8.32,
+        "pasos_extra_vs_optimo": 2.01,
+        "choques_por_ep": 0.0
+      },
+      "tasa": 0.1,
+      "perdida_ep10": 1.2578,
+      "oscilacion_ult20": 0.00078,
+      "finita": true
+    },
+    {
+      "epocas": 200,
+      "perdida": 0.0376,
+      "exactitud_entreno_%": 99.9,
+      "exactitud_prueba_%": 90.1,
+      "red_pura": {
+        "comidas_%": 82.7,
+        "pasos_medios": 6.2,
+        "pasos_extra_vs_optimo": 0.02,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.83,
+        "pasos_extra_vs_optimo": 0.51,
+        "choques_por_ep": 0.0
+      },
+      "tasa": 0.45,
+      "perdida_ep10": 0.6822,
+      "oscilacion_ult20": 0.00075,
+      "finita": true
+    },
+    {
+      "epocas": 200,
+      "perdida": 0.0079,
+      "exactitud_entreno_%": 100.0,
+      "exactitud_prueba_%": 93.2,
+      "red_pura": {
+        "comidas_%": 87.3,
+        "pasos_medios": 6.36,
+        "pasos_extra_vs_optimo": 0.03,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.78,
+        "pasos_extra_vs_optimo": 0.46,
+        "choques_por_ep": 0.0
+      },
+      "tasa": 1.0,
+      "perdida_ep10": 0.5509,
+      "oscilacion_ult20": 6e-05,
+      "finita": true
+    },
+    {
+      "epocas": 200,
+      "perdida": 0.0026,
+      "exactitud_entreno_%": 100.0,
+      "exactitud_prueba_%": 93.4,
+      "red_pura": {
+        "comidas_%": 88.7,
+        "pasos_medios": 6.47,
+        "pasos_extra_vs_optimo": 0.03,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.81,
+        "pasos_extra_vs_optimo": 0.49,
+        "choques_por_ep": 0.0
+      },
+      "tasa": 2.0,
+      "perdida_ep10": 0.4823,
+      "oscilacion_ult20": 1e-05,
+      "finita": true
+    }
+  ],
+  "p6_mapas": [
+    {
+      "mapa": 1,
+      "ejemplos_prueba": 210,
+      "exactitud_prueba_%": 92.4,
+      "comidas_red_pura_pares_prueba_%": 84.7
+    },
+    {
+      "mapa": 2,
+      "ejemplos_prueba": 251,
+      "exactitud_prueba_%": 90.0,
+      "comidas_red_pura_pares_prueba_%": 82.0
+    },
+    {
+      "mapa": 3,
+      "ejemplos_prueba": 255,
+      "exactitud_prueba_%": 92.2,
+      "comidas_red_pura_pares_prueba_%": 86.7
+    }
+  ],
+  "p7_expertos": [
+    {
+      "epocas": 400,
+      "perdida": 0.0107,
+      "exactitud_entreno_%": 100.0,
+      "exactitud_prueba_%": 91.5,
+      "red_pura": {
+        "comidas_%": 85.7,
+        "pasos_medios": 6.26,
+        "pasos_extra_vs_optimo": 0.03,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.67,
+        "pasos_extra_vs_optimo": 0.35,
+        "choques_por_ep": 0.0
+      },
+      "experto": "BFS",
+      "etiquetas_optimas_%": 100.0,
+      "experto_solo": {
+        "llega_%": 100.0,
+        "pasos_extra_medios": 0.0
+      }
+    },
+    {
+      "epocas": 400,
+      "perdida": 0.01,
+      "exactitud_entreno_%": 100.0,
+      "exactitud_prueba_%": 94.8,
+      "red_pura": {
+        "comidas_%": 13.7,
+        "pasos_medios": 2.68,
+        "pasos_extra_vs_optimo": 0.0,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 59.3,
+        "pasos_medios": 17.8,
+        "pasos_extra_vs_optimo": 12.19,
+        "choques_por_ep": 0.0
+      },
+      "experto": "DFS",
+      "etiquetas_optimas_%": 54.9,
+      "experto_solo": {
+        "llega_%": 16.6,
+        "pasos_extra_medios": 0.0
+      }
+    },
+    {
+      "epocas": 400,
+      "perdida": 0.0107,
+      "exactitud_entreno_%": 100.0,
+      "exactitud_prueba_%": 92.6,
+      "red_pura": {
+        "comidas_%": 88.7,
+        "pasos_medios": 6.19,
+        "pasos_extra_vs_optimo": 0.01,
+        "choques_por_ep": 0.0
+      },
+      "asistido": {
+        "comidas_%": 100.0,
+        "pasos_medios": 6.77,
+        "pasos_extra_vs_optimo": 0.45,
+        "choques_por_ep": 0.0
+      },
+      "experto": "A*",
+      "etiquetas_optimas_%": 100.0,
+      "experto_solo": {
+        "llega_%": 100.0,
+        "pasos_extra_medios": 0.0
+      }
+    }
+  ]
+}
